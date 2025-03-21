@@ -28,7 +28,7 @@ public class FlightController {
     }
 
     @GetMapping("/{id}/schedules")
-    public List<String> retrieveFlightSchedules(@PathVariable String id) {  // Renamed method
+    public List<String> retrieveFlightSchedules(@PathVariable String id) {
         return flightService.getFlightSchedule(id);
     }
 }
