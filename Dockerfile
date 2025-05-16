@@ -4,6 +4,7 @@
 #ENTRYPOINT ["java","-jar","/app.jar"]
 #EXPOSE 9056
 
+
 FROM openjdk:21-oracle
 EXPOSE 8072
 ADD target/spring.jar spring.jar
